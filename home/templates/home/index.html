@@ -1,1 +1,7 @@
-<h1>Hello it has worked, well done!</h1>
+<form action=""></form>
+
+
+{% for b in band %}
+    <h1>{{ b.band_name }}</h1>
+    <p>{{ b.number }}</p>
+{% endfor %}
